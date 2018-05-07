@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Javascript development environment setup - damanpadam git repo",
   "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/srcServer.js"
   },
   "author": "Damanjit Padam",
