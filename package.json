@@ -2,7 +2,9 @@
   "name": "pluralsight-js-dev-env",
   "version": "1.0.0",
   "description": "Javascript development environment setup - damanpadam git repo",
-  "scripts": {},
+  "scripts": {
+    "start": "node buildScripts/srcServer.js"
+  },
   "author": "Damanjit Padam",
   "license": "MIT",
   "repository": {
